@@ -22,8 +22,12 @@
     application name = <%=application.getAttribute("name") %> <br/>
 	
 	<h2>el</h2>                   
-	
 
+	<ul>
+		<li>request : ${requestScope.vo1}</li>
+		<li>session : ${sessionScope.vo1}</li>
+		<li>스코프 생략 : ${vo1}</li>
+	</ul>
 
 
 
